@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 🍔 HungryHop - React Native Food Delivery App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+HungryHop is a modern, intuitive, and feature-rich **food delivery mobile application** built using **React Native**. Designed for performance and simplicity, HungryHop provides users with a seamless food ordering experience from browsing mouth-watering menus to tracking past orders — all wrapped in a visually engaging UI and powered by smart features.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+### 🗂️ Dynamic Menu
 
-2. Start the app
+Explore curated food menus with categories, pricing, and delicious visuals. Smooth navigation and efficient rendering make discovering food easy and enjoyable.
 
-   ```bash
-    npx expo start
-   ```
+### 👤 Profile Management
 
-In the output, you'll find options to open the app in a
+Personalize your HungryHop experience:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Add/update your **profile photo**
+- Manage personal info
+- Seamlessly integrated with device capabilities
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📍 Geolocation Integration
 
-## Get a fresh project
+Get smarter service using your location:
 
-When you're ready, run:
+- Auto-detects your current position
+- Supports location-based restaurant listings and delivery details
+
+### 📞 Secure Login via Mobile Number & OTP
+
+A quick and safe login process:
+
+- Simple mobile number authentication
+- OTP-based verification for added security
+- No passwords required, just speed and ease
+
+### 🛒 Order History
+
+Keep track of all your cravings:
+
+- View past orders in a neatly organized timeline
+- Re-order favorite meals in just a tap
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native**: Cross-platform mobile app development
+- **React Navigation**: Smooth in-app navigation
+- **Expo / React Native CLI**: Accelerated development environment
+- **Firebase / Backend API**: Mobile number authentication (OTP), database for orders & profiles
+- **Geolocation API**: Native location access
+- **AsyncStorage**: Local data persistence
+
+---
+
+## 📸 Screenshots (Optional)
+
+> _(Include if available: login screen, menu page, order summary, geolocation map)_
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/hungryhop.git
+cd hungryhop
+npm install
+npx react-native run-android # or run-ios
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
